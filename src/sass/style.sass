@@ -1,0 +1,248 @@
+/* Common */
+html
+	font-family: 'Roboto', sans-serif
+
+body
+	font-size: 1.2em
+	min-width: 360px
+	min-height: 400px
+
+.top-margin
+	margin-top: 50px
+
+.bottom-margin
+	margin-bottom: 40px
+
+/* SECTION PRELOADER */
+.preloader-background 
+	background-color: #eee
+	position: fixed
+	z-index: 100
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+
+.preloader-wrapper
+	margin: 0 auto
+
+
+/* SECTION HEADER */
+/* nav menu center */
+.nav-center
+   clear: left
+   float: left
+   position: relative
+   left: 50%
+   text-align: center
+
+.nav-center li 
+   display: block
+   float: left
+   list-style: none
+   position: relative
+   right: 50%
+
+.main-page
+	height: 600px
+
+.parallax-big
+	height: 600px
+	background: rgba(0, 0, 0, 0.6)
+
+.head-title
+	font-size: 30px
+
+/* SECTION ABOUT */
+/* about, style for heart*/
+.like
+	font-size: 20px
+	margin-right: 10px
+	margin-left: 10px
+	color: red
+
+/* about owl style */
+.owl-nav
+	font-size: 32px
+	width: 100%
+.owl-nav [class*='owl-']
+	position: absolute
+	display: inline-block
+.owl-prev 
+	top: 35%
+	left: 1%
+.owl-next
+	right: 1%
+	top: 35%
+/* about fa icon size*/
+.my-icon 
+	font-size: 60px
+
+/* SECTION SKILLS */
+/* skillbars styles*/
+.skillbar
+	position: relative
+	display: block
+	margin-bottom: 15px
+	width: 100%
+	background: #eee
+	height: 32px
+	border-radius: 3px
+	-moz-border-radius: 3px
+	-webkit-border-radius: 3px
+	-webkit-transition: 0.4s linear
+	-moz-transition: 0.4s linear
+	-ms-transition: 0.4s linear
+	-o-transition: 0.4s linear
+	transition: 0.4s linear
+	-webkit-transition-property: width, background-color
+	-moz-transition-property: width, background-color
+	-ms-transition-property: width, background-color
+	-o-transition-property: width, background-color
+	transition-property: width, background-color
+
+.skillbar-title
+	position: absolute
+	top: 0
+	left: 0
+	width: 110px
+	font-weight: bold
+	font-size: 14px
+	color: #fff
+	background: #6adcfa
+	-webkit-border-top-left-radius: 3px
+	-webkit-border-bottom-left-radius: 4px
+	-moz-border-radius-topleft: 3px
+	-moz-border-radius-bottomleft: 3px
+	border-top-left-radius: 3px
+	border-bottom-left-radius: 3px
+
+.skillbar-title
+	span
+		display: block
+		background: rgba(0, 0, 0, 0.1)
+		padding: 0 10px
+		height: 32px
+		line-height: 32px
+		-webkit-border-top-left-radius: 3px
+		-webkit-border-bottom-left-radius: 3px
+		-moz-border-radius-topleft: 3px
+		-moz-border-radius-bottomleft: 3px
+		border-top-left-radius: 3px
+		border-bottom-left-radius: 3px
+.skillbar-bar
+	height: 32px
+	width: 0px
+	background: #6adcfa
+.skill-bar-percent
+	position: absolute
+	right: 10px
+	top: 0
+	font-size: 14px
+	height: 32px
+	line-height: 32px
+	color: #fff
+	color: rgba(0, 0, 0, 0.9)
+
+/* COLORS SKILLS in skillbars*/
+/* .net */
+.skill-cs
+	background-color: #4472C4
+.skill-wforms
+	background-color: #68217A
+.skill-aspmvc
+	background-color: #FBAA39
+.skill-aspwebapi
+	background-color: #1D83C1
+.skill-mssql
+	background-color: #FA433D
+.skill-ef
+	background-color: #A349A4
+.skill-linq
+	background-color: #262D68
+/* frontend */
+.skill-html
+	background-color: #F16529
+.skill-css
+	background-color: #33A9DC
+.skill-sass
+	background-color: #CD6799
+.skill-js
+	background-color: #FFDA3E
+.skill-jquery
+	background-color: #0769AD
+.skill-angular
+	background-color: #DD0031
+.skill-react
+	background-color: #61DAFB
+/* other */
+.skill-oop
+	background-color: #414141
+.skill-patterns
+	background-color: #A63039
+.skill-english
+	background-color: #1F3C91
+.skill-git
+	background-color: #F05033
+.skill-gulp
+	background-color: #CF4547
+.skill-webpack
+	background-color: #789DE1
+.skill-mongodb
+	background-color: #409D39
+
+/* Section Experience */
+
+/* SECTION PARALLAX SMALL */
+.parallax-small
+	height: 400px
+	background: rgba(0, 0, 0, 0.0)
+
+/* SECTION CONTACTS */
+/* social icon style */
+.social
+	ul
+		li
+			display: inline-block
+			font-size: 45px
+			margin-right: 6px
+.social
+	i:hover
+		color: #5e99f2
+
+/* for errors validation, materializecss*/
+input:not([type])+label:after,
+input[type=text]+label:after,
+input[type=password]+label:after,
+input[type=email]+label:after,
+input[type=url]+label:after,
+input[type=time]+label:after,
+input[type=date]+label:after,
+input[type=datetime]+label:after,
+input[type=datetime-local]+label:after,
+input[type=tel]+label:after,
+input[type=number]+label:after,
+input[type=search]+label:after
+    top: 38px
+
+textarea.materialize-textarea+label:after
+    top: 70px
+
+/* btn send style*/
+.btn-send
+	background-color: #E53935
+.btn-send:hover
+	background-color: #db5e5c
+
+/* MEDIA QUERIES*/
+@media (max-width: 399px)
+	.parallax-small
+		height: 150px
+
+@media (min-width: 400px) and (max-width: 599px)
+	.parallax-small
+		height: 200px
+
+@media (min-width: 600px) and (max-width: 800px)
+	.parallax-small
+		height: 270px
